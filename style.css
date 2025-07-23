@@ -10,6 +10,7 @@ body {
     align-items: center;
     justify-content: flex-start;
     padding-top: 60px;
+     background-image: url("360_F_591197738_570kD5exn78wK676dhKra3PwksgsM1eG.jpg");
 }
 
 /* Header */
@@ -19,6 +20,9 @@ h1 {
     margin-bottom: 20px;
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
     margin-top: 10px;
+    text-align: center;
+    text-decoration: dotted;
+    text-decoration-color: #ff6a00;
 }
 
 /* Glassmorphic Form Card */
@@ -73,6 +77,7 @@ form.password button {
     color: white;
     cursor: pointer;
     transition: background 0.3s ease, transform 0.2s;
+   
 }
 
 form.password button:hover {
