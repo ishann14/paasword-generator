@@ -1,0 +1,97 @@
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 60px;
+}
+
+/* Header */
+h1 {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+    margin-top: 10px;
+}
+
+/* Glassmorphic Form Card */
+form.password {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: 20px;
+    padding: 35px 40px;
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 90%;
+    max-width: 420px;
+    color: #fff;
+}
+
+/* Labels */
+form.password label {
+    display: block;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+/* Inputs */
+form.password input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 6px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.3);
+    color: #333;
+    font-weight: bold;
+    outline: none;
+}
+
+/* Checkbox style tweak */
+form.password input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Button Style */
+form.password button {
+    margin-top: 25px;
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    background: #ff6a00;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s;
+}
+
+form.password button:hover {
+    background: #ff3d00;
+    transform: scale(1.03);
+}
+
+/* Result Display */
+.result {
+    margin-top: 30px;
+    background: rgba(255, 255, 255, 0.85);
+    padding: 15px 20px;
+    border-radius: 12px;
+    max-width: 420px;
+    width: 90%;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    word-break: break-word;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
