@@ -10,19 +10,28 @@ body {
     align-items: center;
     justify-content: flex-start;
     padding-top: 60px;
-     background-image: url("360_F_591197738_570kD5exn78wK676dhKra3PwksgsM1eG.jpg");
+    background-image: url("tron-ares-empire-3840x2160-23535.jpg");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: repeat-y;
+    background-position: center;
+   
 }
 
 /* Header */
 h1 {
-    font-size: 2.5rem;
+    padding: 20px;
+    font-size: 2rem;
     color: #fff;
     margin-bottom: 20px;
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
-    margin-top: 10px;
+
     text-align: center;
     text-decoration: dotted;
     text-decoration-color: #ff6a00;
+    background-color:  rgba(255, 255, 255, 0.2);
+    border-radius: 30px;
+
 }
 
 /* Glassmorphic Form Card */
@@ -100,3 +109,4 @@ form.password button:hover {
     word-break: break-word;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
 }
+
